@@ -598,6 +598,25 @@ body{
 /*=========================
 	End Header CSS
 ===========================*/
+.whatsapp {
+    position: fixed;
+    bottom: 10px;
+    left: 13px;
+    z-index: 999;
+  }
+  .whatsapp i {
+    font-size: 40px;
+    color: white;
+    background-color: #b60e1b;
+    padding: 8px;
+    border-radius: 50%;
+    box-shadow: 6px 3px 4px black;
+  }
+  .whatsapp:hover i {
+    color: white;
+    background: linear-gradient(90deg, #b60e1b 0,#edb311 100%);
+  }
+
 
 /*===========================
 	Start Hero Area CSS
@@ -1023,7 +1042,16 @@ body{
 .why-choose .choose-right{
 	height:100%;
 	width:100%;
-	background-image:url('img/video-bg.jpg');
+	background-image:url('img/p2.jpg');
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+	position:relative;
+}
+.why-choose .choose-right1{
+	height:80%;
+	width:100%;
+	
 	background-size:cover;
 	background-position:center;
 	background-repeat:no-repeat;
@@ -4183,3 +4211,85 @@ body{
 /*=========================
 	End Footer CSS
 ===========================*/
+
+
+
+.hvr-float-shadow {
+    display: inline-block;
+    vertical-align: middle;
+    /* -webkit-transform: perspective(1px) translateZ(0); */
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    position: relative;
+    /* -webkit-transition-duration: 0.3s; */
+    transition-duration: 0.3s;
+    /* -webkit-transition-property: transform; */
+    transition-property: transform;
+}
+.hvr-float-shadow:before {
+    pointer-events: none;
+    position: absolute;
+    z-index: -1;
+    content: '';
+    top: 100%;
+    left: 5%;
+    height: 10px;
+    width: 90%;
+    opacity: 0;
+    /* background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.35) 0%, transparent 80%); */
+    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, transparent 80%);
+    /* -webkit-transition-duration: 0.3s; */
+    transition-duration: 0.3s;
+    /* -webkit-transition-property: transform, opacity; */
+    transition-property: transform, opacity;
+}
+
+.bronchoscopy-box {
+    width: 100%;
+    margin-bottom: 60px;
+	
+}
+.bronchoscopy-box a {
+	text-decoration: none;
+}
+.bronchoscopy-img-sec {
+    width: 100%;
+}
+.bronchoscopy {
+    float: left;
+    width: 59px;
+}
+.bronchoscopy-img-sec h3 {
+    font-size: 18px;
+    font-weight: bold;
+    width: 100%;
+    color: #404040;
+    padding-top: 10px;
+}
+.bronchoscopy-box p {
+    color: #666666;
+    line-height: 25px;
+    clear: both;
+    margin-top: 35px;
+}
+.bronchoscopy-box a {
+    text-decoration: none;
+}
+.hvr-forward {
+    display: inline-block;
+    /* vertical-align: middle; */
+    /* -webkit-transform: perspective(1px) translateZ(0); */
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    /* -webkit-transition-duration: 0.3s; */
+    transition-duration: 0.3s;
+    /* -webkit-transition-property: transform; */
+    transition-property: transform;
+}
+.hvr-forward {
+    vertical-align: text-top !important;
+}
+.tag-link {
+    color:#b80e1b ;
+}
+
