@@ -319,7 +319,10 @@ body{
 }
 .header .logo {
 	float: left;
-	margin-top: 18px;
+	/* margin-top: 18px; */
+}
+.header .logo img{
+	width: 200px;
 }
 .header .navbar {
 	background: none;
@@ -1477,7 +1480,7 @@ body{
 	border-radius: 3px;
 	margin: 0 0 0 -52px;
 	margin-top: 49px;
-	box-sizing: ;
+	/* box-sizing: ; */
 }
 .testimonials .owl-dots .owl-dot {
 	display: inline-block;
