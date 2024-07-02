@@ -2059,13 +2059,14 @@ body {
 }
 .blog .single-news .news-content {
   text-align: left;
-  background: #fff;
+  background: white;
   z-index: 99;
   position: relative;
   padding: 30px;
   left: 0;
   z-index: 0;
 }
+
 .blog .single-news .news-content:before {
   position: absolute;
   content: "";
@@ -2073,7 +2074,7 @@ body {
   bottom: 0;
   height: 2px;
   width: 0%;
-  background: #1a76d1;
+  background: rgb(224, 104, 104);
   opacity: 0;
   visibility: hidden;
   -webkit-transition: all 0.4s ease;
@@ -2759,7 +2760,7 @@ body {
 ============================*/
 .appointment {
   background: #fff;
-  padding-top: 100px;
+  padding-top: 50px;
 }
 .appointment.single-page {
   background: #fff;
@@ -4293,3 +4294,6 @@ body {
 .tag-link {
   color: #1A76D1;
 }
+
+
+
