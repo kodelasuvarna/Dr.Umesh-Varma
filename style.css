@@ -2043,7 +2043,7 @@ body {
   -webkit-transition: all 0.4s ease;
   -moz-transition: all 0.4s ease;
   transition: all 0.4s ease;
-  box-shadow: 0px 0px 10px #00000014;
+  box-shadow: 10px 5px 10px rgb(221, 122, 122);
 }
 .blog .single-news img {
   width: 100%;
@@ -2094,9 +2094,10 @@ body {
 .blog .single-news .news-body h2 a {
   color: #2c2d3f;
   font-weight: 500;
+  text-align: center;
 }
 .blog .single-news .news-body h2 a:hover {
-  color: #1a76d1;
+  color: rgb(225, 62, 62);
 }
 .blog .single-news .news-content p {
   font-weight: 400;
@@ -4290,5 +4291,5 @@ body {
   vertical-align: text-top !important;
 }
 .tag-link {
-  color: #b80e1b;
+  color: #1A76D1;
 }
