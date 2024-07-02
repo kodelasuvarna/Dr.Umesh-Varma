@@ -4294,6 +4294,8 @@ body {
 .tag-link {
   color: #1A76D1;
 }
-
+.nav .dropdown a .fa {
+  margin-right: 5px;
+}
 
 
