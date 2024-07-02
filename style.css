@@ -476,10 +476,10 @@ body {
   border: none;
 }
 .header .nav li .dropdown li a {
-  padding: 12px 15px;
-  color: #666;
+  padding: 8px 10px;
+  color: #2c2d3f;
   display: block;
-  font-weight: 400;
+  font-weight: 500;
   text-transform: capitalize;
   background: transparent;
   -webkit-transition: all 0.2s ease;
@@ -2207,6 +2207,7 @@ body {
 }
 .main-sidebar .categor-list li {
   margin-bottom: 10px;
+  border-bottom: 1px solid #b60e1b;
 }
 .main-sidebar .categor-list li:last-child {
   margin-bottom: 0px;
@@ -4297,5 +4298,8 @@ body {
 .nav .dropdown a .fa {
   margin-right: 5px;
 }
+/* .single-widget .categor-list a .fa{
+  margin-right: 5px; 
+} */
 
 
