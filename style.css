@@ -638,7 +638,7 @@ body {
 }
 .whatsapp:hover i {
   color: white;
-  background: linear-gradient(90deg, #b60e1b 0, #edb311 100%);
+  background:  #edb311 ;
 }
 
 /*===========================
@@ -969,7 +969,7 @@ body {
   position: absolute;
   left: 0;
   font-size: 62px;
-  color: #fff;
+  color: #edb311;
   height: 70px;
   width: 70px;
   line-height: 67px;
