@@ -260,6 +260,7 @@ Preloader Area CSS
   z-index: 9999999;
   -webkit-transition: .9s;
   transition: .9s;
+  
 }
 
 .preloader .loader {
