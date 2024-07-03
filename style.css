@@ -251,7 +251,7 @@ body {
 }
 /* Topbar */
 .header .topbar {
-  background-color: #fff;
+  background-color: #b60e1b;
   border-bottom: 1px solid #eee;
 }
 .header .topbar {
@@ -280,6 +280,9 @@ body {
   color: white;
   font-size: 16px;
   background-color: #b60e1b;
+}
+.header .top-link li s {
+  background-color: yellow !important;
 }
 .header .top-link li:hover a {
   color: black;
@@ -311,13 +314,14 @@ body {
 .header .top-contact li {
   display: inline-block;
   margin-right: 25px;
-  color: #2c2d3f;
+  color: white;
 }
 .header .top-contact li:last-child {
   margin-right: 0;
 }
 .header .top-contact li a {
   font-size: 14px;
+  
 }
 .header .top-contact li a:hover {
   color: #edb311  ;
@@ -327,7 +331,7 @@ body {
   margin-right: 8px;
 }
 .header .header-inner {
-  background: #fff;
+  background: #edb311 ;
   z-index: 999;
   width: 100%;
 }
@@ -399,7 +403,7 @@ body {
   visibility: visible;
 }
 .header .nav li:hover a {
-  color: #1a76d1;
+  color: #b60e1b;
 }
 .header .nav li a i {
   display: inline-block;
@@ -480,7 +484,7 @@ body {
   opacity: 0;
   visibility: hidden;
   top: 74px;
-  border-left: 3px solid #2889e4;
+  border: 1px solid yellow;
 }
 .header .nav li:hover .dropdown {
   opacity: 1;
@@ -490,7 +494,7 @@ body {
 .header .nav li .dropdown li {
   float: none;
   margin: 0;
-  border-bottom: 1px dashed #eee;
+  border-bottom: 1px dashed #e7d2d2;
 }
 .header .nav li .dropdown li:last-child {
   border: none;
@@ -513,7 +517,7 @@ body {
   border-bottom: 0px;
 }
 .header .nav li .dropdown li:hover a {
-  color: #1a76d1;
+  color: #b60e1b;
 }
 .header .nav li .dropdown li a:hover {
   border-color: transparent;
@@ -591,15 +595,15 @@ body {
   height: 50px;
   top: 0;
   width: 50px;
-  background: #1a76d1;
+  background: #edb311;
   border: none;
-  color: #fff;
+  color: black;
   border-radius: 0 4px 4px 0;
   border-left: 1px solid transparent;
 }
 .header .search-form button:hover {
   background: #fff;
-  color: #1a76d1;
+  color: #b60e1b;
   border-color: #e6e6e6;
 }
 /* Header Sticky */
@@ -661,7 +665,8 @@ body {
   line-height: 42px;
 }
 .slider .single-slider h1 span {
-  color: #b60e1b;
+  /* color: #b60e1b; */
+ 
 }
 .slider .single-slider p {
   color: #2c2d3f;
@@ -982,8 +987,8 @@ body {
   border-radius: 50%;
 }
 .fun-facts .single-fun:hover i {
-  color: #1a76d1;
-  background: #fff;
+  color: #edb311;
+  background: #b60e1b;
   border-color: transparent;
 }
 .fun-facts .single-fun .content {

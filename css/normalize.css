@@ -501,7 +501,17 @@ Preloader Area CSS
 	top:0;
 	height:100%;
 	width:100%;
-	background:#edb311 ;
+	background:rgb(109, 108, 105);
+	opacity:0.8;
+}
+.overlay1:before{
+	position:absolute;
+	content:"";
+	left:0;
+	top:0;
+	height:100%;
+	width:100%;
+	background:#b60e1b;
 	opacity:0.8;
 }
 /* Bread Crumbs */

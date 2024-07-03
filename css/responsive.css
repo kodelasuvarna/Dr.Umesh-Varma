@@ -393,7 +393,7 @@ Version:	1.1
 	position: absolute;
 	position: relative;
 	padding-bottom: 20px;
-	background: #fff;
+	background: #edb311;
 }
 .slicknav_menu{
 	display:block;
@@ -456,7 +456,7 @@ Version:	1.1
 }
 .slicknav_nav li .dropdown li a{
 	color:#2C2D3F;
-	background:transparent;
+	background:white;
 }
 .slicknav_nav li .dropdown li a:hover{
 	color:#1A76D1;
@@ -471,8 +471,8 @@ Version:	1.1
 	font-weight:400;
 }
 .slicknav_menu .slicknav_icon-bar {
-	background-color: #edb311;
-	box-shadow:1px solid #b60e1b;
+	background-color: #b60e1b;
+	box-shadow:1px solid rgb(53, 42, 42);
 	text-shadow: none;
 }
 .slicknav_nav .slicknav_arrow{
