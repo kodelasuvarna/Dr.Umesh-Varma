@@ -471,15 +471,15 @@ Version:	1.1
 	font-weight:400;
 }
 .slicknav_menu .slicknav_icon-bar {
-	background-color: #1A76D1;
-	box-shadow: none;
+	background-color: #edb311;
+	box-shadow:1px solid #b60e1b;
 	text-shadow: none;
 }
 .slicknav_nav .slicknav_arrow{
 	color:#2C2D3F;
 }
 .slicknav_nav li:hover .slicknav_arrow{
-	color:#1A76D1;
+	color:#b60e1b;
 }
 .slicknav_menu .slicknav_icon-bar {
 	display: block;
@@ -1130,7 +1130,7 @@ Version:	1.1
 }
 .Feautes .single-features h3 {
 	padding-top: 105px;
-	font-size: 20px;
+	font-size: 24px;
 }
 .fun-facts.section{
 	padding:70px 0;
